@@ -1,0 +1,12 @@
+clouds
+clear
+snow
+
+
+
+
+
+
+
+
+mist = fog

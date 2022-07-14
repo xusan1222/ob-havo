@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <script src="https://kit.fontawesome.com/f107c55bf5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="search-box">
+      <div class="box-left">
+        <p class="p-1">Ob-Havo <i style="color: yellow;" class="fas fa-sun"></i> <i class="fas fa-cloud-sun-rain"></i></p>
+        <input type="text" class="search" id="search" placeholder="Shahar yoki Davlat nomini kiritng">
+        <button  class="searchBtn" id="searchBtn" type="search" onclick="qidiruv(event)">  <i class="fas fa-search"></i></button>
+        
+            <div class="extra">
+                <h2>Mashhur shaxarlardagi ob-havo</h2>
+                <p>London <p class="london" id="london" ></p> </p>
+                <p>New york <p class="New york" id="New york"></p> </p>
+                <p>Moscow <p class="Moscow" id="new york"></p> </p>
+            </div>
+        
+            <a class="link" href="https://openweathermap.org/"> >>maanba:openweathermap.org</a>
+            
+        </div>
+
+        <div class="box-right">
+            <h1 id="natija">
+                Natija
+            </h1>
+            <h3 id="harorat"></h3>
+            <h3 id="tip"></h3>
+        </div>        
+
+    </div>
+<div class="historiesBox">
+    <h2 class="tarix">Qidiruvlar tarixi</h2>
+    <div class="histories" id="histories">
+          
+    </div>
+</div>
+    
+    
+
+
+    <script src="main.js"></script>
+</body>
+</html>
